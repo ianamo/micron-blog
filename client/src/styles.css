@@ -1,0 +1,52 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.avatar {
+  border-radius: 100%;
+  width: 125px;
+}
+
+.description-container {
+  width: 65%;
+  margin: auto;
+  padding: 5%;
+}
+
+.micra-box {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.micron-container {
+  text-align: left;
+  width: 90%;
+  padding: 3%;
+  margin: auto;
+  margin-bottom: -2px;
+  font-size: 1.5rem;
+  border: rgb(239, 243, 244) 2px solid;
+  height: fit-content;
+}
+
+.micron-container:hover {
+  background-color: whitesmoke;
+}
+
+.date {
+  font-size: 16px;
+  text-align: right;
+  color: lightgray;
+}
+
+.submit-micron-fab {
+  margin-left: -33px;
+  margin-top: -19px;
+}
